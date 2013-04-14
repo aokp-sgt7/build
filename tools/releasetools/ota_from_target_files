@@ -407,15 +407,30 @@ def WriteFullOTAPackage(input_zip, output_zip):
   if OPTIONS.wipe_user_data:
     script.FormatPartition("/data")
 
-  script.Print("**************************************");
-  script.Print("*  ______  _____   __  __   _____    *");
-  script.Print("* /\\  _  \\/\\  __`\\/\\ \\/\\ \\ /\\  _ `\\  *");
-  script.Print("* \\ \\ \\L\\ \\ \\ \\/\\ \\ \\ \\/'/'\\ \\ \\L\\ \\ *");
-  script.Print("*  \\ \\  __ \\ \\ \\ \\ \\ \\ , <  \\ \\ ,__/ *");
-  script.Print("*   \\ \\ \\/\\ \\ \\ \\_\\ \\ \\ \\\\\\`\\ \\ \\ \\/  *");
-  script.Print("*    \\ \\_\\ \\_\\ \\_____\\ \\_\\ \\_\\\\\\ \\_\\  *");
-  script.Print("*     \\/_/\\/_/\\/_____/\\/_/\\/_/ \\/_/  *");
-  script.Print("**************************************");
+  script.Print("");
+  script.Print("            ,,cSS$");
+  script.Print("            $$$$$$    ,,ccc,,    ,,cSS$   ,c$$$$SScc,");
+  script.Print("    ,ccS$$$$$$$$$$ ,cS$$$$$$$Sc, $$$$$$  ,S$$$S$$$$$$$$$SScc,");
+  script.Print("   ;$$$$$*`*$$$$$$;$$$$$*`*$$$$$;$$$$$$,cS$$$*`$$$$$$*`l$$$$$;");
+  script.Print("  ;l$$$$l   $$$$$$l$$$$$   $$$$$l$$$$$$$$$S*`  $$$$$$  ;$$$$$l");
+  script.Print("  l$$$$$$$$$$$$$$$$$$$$$   $$$$$$$$$$$$$$Scc,, $$$$$$  ;$$$$$l");
+  script.Print("  $$$$$$    $$$$$$$$$$$$   $$$$$$$$$$$$`l$$$Sc,$$$$$$c,l$$$$$;");
+  script.Print("  $$$$$$;   $$$$$$l$$$$$   $$$$$l$$$$$$ ;$$$$$$$$$$$$$$$SS**`");
+  script.Print("  l$$$$$l   $$$$$$;$$$$$c,c$$$$$;$$$$$$  $$$$$$$$$$$$");
+  script.Print("  ;$$$$$$;  `*S$$$ `*S$$$$$$$S*` $$$$$$  $$$$$$$$$$$$");
+  script.Print("   l$$$$$l            ``***``    $$S**`  $$$$$$`*S$$$");
+  script.Print("-- ;S**`` ------------------------------ `**S$$ ------- --- -");
+  script.Print(";;[ ;;;;;;;;;;;;;;;;;;;;; ];;; ,c$$$$*`,cS$$Sc,*$$$$$*,c$$$c,");
+  script.Print(";;[ ;;; A O K P - S G T 7 ];;; $$; ;;; $$ ;; $$  $$ ;;;;;;`$$");
+  script.Print(";;[ ;;;;;;;;;;;;;;;;;;;;; ];;;,`*$$$Sc,*$,,,,$$  $$ ;;;;;; $$");
+  script.Print(";;[ ;;;;;;;;; by stimpz0r ];;;``    ;$$ `````$$  $$ ;;;;;; $$");
+  script.Print(";;[ ;;;;;;;;;;;;;;;;;;;;; ];;;,`*$$$$*`ccS$$$*`, $$ ;;;;;; $$");
+  script.Print("- --- ---------------------------------------------------- *$");
+  script.Print("(::) AOKP (Android Open Kang Project) by TeamKang");
+  script.Print("(::) SGT7 device/vendor/kernel by SGT7 TE4M");
+  script.Print("(::) built and SGT7 components AOKPerized by stimpz0r");
+  script.Print("---------------------------------------------------- --- -- -");
+  script.Print("");
 
   if "selinux_fc" in OPTIONS.info_dict:
     WritePolicyConfig(OPTIONS.info_dict["selinux_fc"], output_zip)
