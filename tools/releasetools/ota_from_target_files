@@ -450,10 +450,10 @@ def WriteFullOTAPackage(input_zip, output_zip):
   script.Print(";;[ ;;;;;;;;;;;;;;;;;;;;; ];;;,`*$$$$*`ccS$$$*`, $$ ;;;;;; $$");
   script.Print("- --- ---------------------------------------------------- *$");
   script.Print("(::) AOKP (Android Open Kang Project) by TeamKang");
-  script.Print("(::) SGT7 device/vendor/kernel by SGT7 TE4M");
-  script.Print("(::) built and SGT7 components AOKPerized by stimpz0r");
+  script.Print("(::) original device /vendor / kernel by the SGT7 TE4M");
+  script.Print("(::) kernel modified / SGT7 components AOKPerized by stimpz0r");
   script.Print("---------------------------------------------------- --- -- -");
-  script.Print("(**)    version :: Jellybean MR1");
+  script.Print("(**)    version :: Jellybean MR2 (Android 4.3)");
   script.Print("(**)     device :: %s (%s)"%(model, device));
   script.Print("(**) build date :: %s"%(build_date));
   script.Print("---------------------------------------------------- --- -- -");
